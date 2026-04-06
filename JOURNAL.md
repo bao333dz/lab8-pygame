@@ -19,3 +19,8 @@
 - **Hook Version**: 1.02
 - **Date**: 06-04-2026 23:43
 - **Prompt**: please explain more about the part where we store the velocity
+
+### **New Interaction**
+- **Hook Version**: 1.02
+- **Date**: 06-04-2026 23:46
+- **Prompt**: why enumerate there
