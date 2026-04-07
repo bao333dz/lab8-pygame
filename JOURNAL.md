@@ -29,3 +29,8 @@
 - **Hook Version**: 1.02
 - **Date**: 06-04-2026 23:50
 - **Prompt**: Can you create a local virtual environment (.venv), activate it, and intsall pygame? Then create a requirements.txt file that will track the dependencies for this project. Then create a README.md file for this project.
+
+### **New Interaction**
+- **Hook Version**: 1.02
+- **Date**: 07-04-2026 14:59
+- **Prompt**: how do i implement random into this aswell like it can be 4 or -4
