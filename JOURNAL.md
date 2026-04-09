@@ -34,3 +34,8 @@
 - **Hook Version**: 1.02
 - **Date**: 07-04-2026 14:59
 - **Prompt**: how do i implement random into this aswell like it can be 4 or -4
+
+### **New Interaction**
+- **Hook Version**: 1.02
+- **Date**: 09-04-2026 10:31
+- **Prompt**: now i want to implement the bounce off the wall effect can you help me build up the idea
