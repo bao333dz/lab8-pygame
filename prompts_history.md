@@ -32,3 +32,6 @@ Automatically captured prompt log. Entries are appended in chronological order (
 ### 09-04-2026 10:34
 - **Prompt**: the idea is if it is moving up left and hit the left wall, the x speed should be reverse but if it hit moving up left and hit the top wall, the y speed should be reverse
 
+### 09-04-2026 10:36
+- **Prompt**: now lets spawn the cat with random size
+
