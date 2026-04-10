@@ -38,3 +38,6 @@ Automatically captured prompt log. Entries are appended in chronological order (
 ### 10-04-2026 16:46
 - **Prompt**: now i want the smaller squares to move faster than the big square so maybe we can sorted the scale list from small to big and the speed list also need to be sorted as well but at the same time, a bug will occur because we have minus in the speed list so i think we should seperate it into a negative and positive list
 
+### 10-04-2026 16:48
+- **Prompt**: ok so first lets assign the speed to each size first then we randomly multiply them with 1 or -1 to create different direction
+
