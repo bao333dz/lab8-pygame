@@ -41,3 +41,6 @@ Automatically captured prompt log. Entries are appended in chronological order (
 ### 10-04-2026 16:48
 - **Prompt**: ok so first lets assign the speed to each size first then we randomly multiply them with 1 or -1 to create different direction
 
+### 10-04-2026 16:51
+- **Prompt**: a problem occur, we need to apply the feature to this part as well
+

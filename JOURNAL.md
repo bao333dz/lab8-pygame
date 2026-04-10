@@ -64,3 +64,8 @@
 - **Hook Version**: 1.02
 - **Date**: 10-04-2026 16:48
 - **Prompt**: ok so first lets assign the speed to each size first then we randomly multiply them with 1 or -1 to create different direction
+
+### **New Interaction**
+- **Hook Version**: 1.02
+- **Date**: 10-04-2026 16:51
+- **Prompt**: a problem occur, we need to apply the feature to this part as well
