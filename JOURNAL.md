@@ -54,3 +54,8 @@
 - **Hook Version**: 1.02
 - **Date**: 09-04-2026 10:36
 - **Prompt**: now lets spawn the cat with random size
+
+### **New Interaction**
+- **Hook Version**: 1.02
+- **Date**: 10-04-2026 16:46
+- **Prompt**: now i want the smaller squares to move faster than the big square so maybe we can sorted the scale list from small to big and the speed list also need to be sorted as well but at the same time, a bug will occur because we have minus in the speed list so i think we should seperate it into a negative and positive list
