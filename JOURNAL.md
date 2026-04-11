@@ -79,3 +79,8 @@
 - **Hook Version**: 1.02
 - **Date**: 12-04-2026 00:10
 - **Prompt**: then also apply this when cat hit the wall as well
+
+### **New Interaction**
+- **Hook Version**: 1.02
+- **Date**: 12-04-2026 00:18
+- **Prompt**: wait then i dont understand it so now how do i control the fps?
