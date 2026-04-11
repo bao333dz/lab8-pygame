@@ -44,3 +44,6 @@ Automatically captured prompt log. Entries are appended in chronological order (
 ### 10-04-2026 16:51
 - **Prompt**: a problem occur, we need to apply the feature to this part as well
 
+### 12-04-2026 00:01
+- **Prompt**: now i want to implement a time-based speed so the logic is that for frame base, it will goes like:  speed = 100  fps = 60 => distance = 60 * 100 = 6000 px  fps = 30 => distance = 30 * 100 = 3000 px  but for the delta time logic, it will goes like:  speed = 100  fps = 60 => distance = 60 * 100 * (1000/60 *1/1000) = 100  fps = 30 => distance = 30 * 100 * (1000/30 * 1/1000) = 100 so add in a variable name delta time which is equal clock.tick() / 1000 and multiply that to the speed for me please
+
