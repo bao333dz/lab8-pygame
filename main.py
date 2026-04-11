@@ -36,8 +36,8 @@ for i, (size, pos_x, pos_y) in enumerate(cat_data):
     cat_list.append(cat_rect)
     
     # Assign speed inversely to size (small = fast, big = slow)
-    # Size 30 -> speed 5, Size 70 -> speed 1
-    speed = int(5 - (size - 30) / 10)
+    # Size 30 -> speed 300 px/s, Size 70 -> speed 60 px/s
+    speed = int((5 - (size - 30) / 10) * 60)
     speeds.append(speed)
 
 # Randomly assign directions (multiply by 1 or -1)
@@ -50,12 +50,16 @@ while True:
             pygame.quit()
             exit()
 
+    # Calculate delta time (frame time in seconds)
+    dt_ms = clock.tick(60)
+    delta_time = dt_ms / 1000
+
     screen.fill("Black")
 
     #
     for i, cat_rect in enumerate(cat_list):
-        cat_rect.x += cat_speed_x[i]
-        cat_rect.y += cat_speed_y[i]
+        cat_rect.x += cat_speed_x[i] * delta_time
+        cat_rect.y += cat_speed_y[i] * delta_time
         
         # LEFT/RIGHT walls - reverse X speed
         if cat_rect.left <= 0:
@@ -73,5 +77,3 @@ while True:
         screen.blit(cat_images[i], cat_rect)
 
     pygame.display.update()
-
-    clock.tick(60)
