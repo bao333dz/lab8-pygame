@@ -74,3 +74,8 @@
 - **Hook Version**: 1.02
 - **Date**: 12-04-2026 00:01
 - **Prompt**: now i want to implement a time-based speed so the logic is that for frame base, it will goes like:  speed = 100  fps = 60 => distance = 60 * 100 = 6000 px  fps = 30 => distance = 30 * 100 = 3000 px  but for the delta time logic, it will goes like:  speed = 100  fps = 60 => distance = 60 * 100 * (1000/60 *1/1000) = 100  fps = 30 => distance = 30 * 100 * (1000/30 * 1/1000) = 100 so add in a variable name delta time which is equal clock.tick() / 1000 and multiply that to the speed for me please
+
+### **New Interaction**
+- **Hook Version**: 1.02
+- **Date**: 12-04-2026 00:10
+- **Prompt**: then also apply this when cat hit the wall as well
